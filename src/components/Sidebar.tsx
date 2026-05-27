@@ -209,7 +209,7 @@ export default function Sidebar({ current, onNavigate }: Props) {
       {/* Mobile toggle */}
       <button
         onClick={() => setOpen(!open)}
-        className="lg:hidden fixed top-4 right-4 z-50 p-2 rounded-lg bg-white  border border-gray-200 dark:border-dark-600 shadow-sm"
+        className="lg:hidden fixed top-4 right-4 z-50 p-2 rounded-lg bg-white dark:text-black  border border-gray-200 dark:border-dark-600 shadow-sm"
         aria-label={open ? "Close menu" : "Open menu"}
       >
         {open ? <X size={20} /> : <Menu size={18} />}
