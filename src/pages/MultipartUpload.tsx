@@ -34,11 +34,10 @@ export default function MultipartUpload() {
             <span className="text-primary-400">{"}"}</span>
           </div>
           <div className="text-gray-500 dark:text-gray-400 mt-1">
-            key: &nbsp;&nbsp; <span className="text-primary-400">pro_</span>
+            key: &nbsp;
             <span className="text-yellow-400">{"{"}</span>
             <span className="text-cyan-400">project_id</span>
             <span className="text-yellow-400">{"}"}</span>
-            <span className="text-primary-400">/doc_</span>
             <span className="text-yellow-400">{"{"}</span>
             <span className="text-cyan-400">document_id</span>
             <span className="text-yellow-400">{"}"}</span>
@@ -156,7 +155,7 @@ export default function MultipartUpload() {
       </div>
 
       {/* Supported formats */}
-      <div className="section-card">
+      {/* <div className="section-card">
         <h3 className="font-semibold text-gray-900 dark:text-white mb-3">
           Supported File Types
         </h3>
@@ -170,7 +169,7 @@ export default function MultipartUpload() {
             </span>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
