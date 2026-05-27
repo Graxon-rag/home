@@ -8,6 +8,7 @@ import {
   GitFork,
   Star,
   ExternalLink,
+  Github,
 } from "lucide-react";
 import PageHeader from "../components/PageHeader";
 
@@ -23,8 +24,8 @@ export default function Overview() {
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {[
-          { label: "Commits", value: "150+" },
-          { label: "Lines of Code", value: "28k+" },
+          { label: "Commits", value: "200+" },
+          { label: "Lines of Code", value: "32k+" },
           { label: "License", value: "Apache 2.0" },
           { label: "Status", value: "Active" },
         ].map((s) => (
@@ -41,6 +42,13 @@ export default function Overview() {
 
       {/* GitHub links */}
       <div className="flex flex-wrap gap-3 mb-8">
+        <a
+          href="https://github.com/Graxon-rag"
+          target="_blank"
+          className="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium transition-colors"
+        >
+          <Github size={20} /> Github <ExternalLink size={15} />
+        </a>
         <a
           href="https://github.com/Graxon-rag/graxon"
           target="_blank"

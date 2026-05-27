@@ -12,6 +12,7 @@ import LexicalEngine from "./pages/LexicalEngine";
 import UIWalkthrough from "./pages/UIWalkthrough";
 import Roadmap from "./pages/Roadmap";
 import Contributing from "./pages/Contributing";
+import Contact from "./pages/Contact";
 
 function getPage(id: PageId) {
   switch (id) {
@@ -43,6 +44,8 @@ function getPage(id: PageId) {
       return <Roadmap />;
     case "contributing":
       return <Contributing />;
+    case "contact":
+      return <Contact />;
     default:
       return <Overview />;
   }
