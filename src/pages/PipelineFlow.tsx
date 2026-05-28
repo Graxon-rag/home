@@ -1,5 +1,6 @@
 import { GitBranch, Brain, Layers, Hash, BookOpen, Link } from "lucide-react";
 import PageHeader from "../components/PageHeader";
+import ingestionPipeline from "../assets/graxon-ingestion.png";
 
 const AGENTS = [
   {
@@ -87,6 +88,12 @@ export default function PipelineFlow() {
           </div>
         </div>
       </div>
+
+      <img
+        src={ingestionPipeline}
+        alt="image"
+        className="mx-auto mb-8 rounded"
+      />
 
       {/* Agents */}
       <h2 className="font-display text-xl font-bold text-gray-900 dark:text-white mb-4">

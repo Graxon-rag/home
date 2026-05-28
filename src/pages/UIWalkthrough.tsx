@@ -115,9 +115,9 @@ export default function UIWalkthrough() {
                 {s.desc}
               </div>
             </div>
-            <div className="text-xs text-gray-300 dark:text-gray-600 italic">
+            {/* <div className="text-xs text-gray-300 dark:text-gray-600 italic">
               Screenshot coming soon
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

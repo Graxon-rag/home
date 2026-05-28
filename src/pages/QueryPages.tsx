@@ -1,5 +1,6 @@
 import { Zap, Brain, Star, ChevronRight } from "lucide-react";
 import PageHeader from "../components/PageHeader";
+import queryPipeline from "../assets/graxon-query.png";
 
 function QueryStep({ num, text }: { num: string; text: string }) {
   return (
@@ -95,6 +96,7 @@ export function QueryQuick() {
           ]}
         />
       </div>
+      <img src={queryPipeline} alt="image" className="mx-auto my-8 rounded" />
     </div>
   );
 }
@@ -157,6 +159,7 @@ export function QuerySmart() {
           ]}
         />
       </div>
+      <img src={queryPipeline} alt="image" className="mx-auto my-8 rounded" />
     </div>
   );
 }
@@ -307,6 +310,7 @@ export function QueryExpert() {
           ))}
         </div>
       </div>
+      <img src={queryPipeline} alt="image" className="mx-auto my-8 rounded" />
     </div>
   );
 }
