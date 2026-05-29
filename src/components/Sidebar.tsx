@@ -16,6 +16,7 @@ import {
   ChevronRight,
   GitFork,
   Contact,
+  Swords,
 } from "lucide-react";
 import { useState } from "react";
 import { useTheme } from "../context/ThemeToggle";
@@ -35,6 +36,7 @@ export type PageId =
   | "ui-walkthrough"
   | "roadmap"
   | "contributing"
+  | "graxon-vs-graphRAG"
   | "contact";
 
 interface NavItem {
@@ -88,6 +90,11 @@ const NAV: NavItem[] = [
   },
   { id: "roadmap", label: "Roadmap", icon: <Map size={15} /> },
   { id: "contributing", label: "Contributing", icon: <Users size={15} /> },
+  {
+    id: "graxon-vs-graphRAG",
+    label: "Graxon vs GraphRAG",
+    icon: <Swords size={15} />,
+  },
   { id: "contact", label: "Contact", icon: <Contact size={15} /> },
 ];
 

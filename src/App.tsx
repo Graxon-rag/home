@@ -13,6 +13,7 @@ import UIWalkthrough from "./pages/UIWalkthrough";
 import Roadmap from "./pages/Roadmap";
 import Contributing from "./pages/Contributing";
 import Contact from "./pages/Contact";
+import GraxonVsGraphRAG from "./pages/GraxonVsGraphRAG";
 
 function getPage(id: PageId) {
   switch (id) {
@@ -44,6 +45,8 @@ function getPage(id: PageId) {
       return <Roadmap />;
     case "contributing":
       return <Contributing />;
+    case "graxon-vs-graphRAG":
+      return <GraxonVsGraphRAG />;
     case "contact":
       return <Contact />;
     default:
